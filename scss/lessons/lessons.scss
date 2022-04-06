@@ -1,0 +1,81 @@
+.lessons-container {
+  width: 100%;
+
+  .lessons-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    width: 95%;
+    border-bottom: 1px solid black;
+    margin: 50px auto;
+    padding: 15px 10px;
+
+
+    .lessons-content {
+      width: 80%;
+      padding-right: 30px;
+      
+      h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        font-size: 32px;
+        color: #000;
+      }
+
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color: #000;
+      }
+      button {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        text-transform: uppercase;
+        width: 200px;
+        height: 50px;
+        background-color: #fff;
+        border: none;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        transition: 0.2s ease-in, 0.2s ease-out;
+
+        &:hover {
+          cursor: pointer;
+          box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+          transition: 0.2s ease-in, 0.2s ease-out;
+          background-color: #7b7a91;
+          border: 2px solid black;
+          color: #fff;
+        }
+      }
+    }
+
+    .lessons-img {
+      height: 280px;
+      width: 600px;
+      background-color: pink;
+    }
+
+    .l1 {
+      background-image: url(../images/skilessons.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .l2 {
+        background-image: url(../images/kidsgroup.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .l3 {
+        background-image: url(../images/kidsgroup2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+  }
+}

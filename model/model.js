@@ -35,7 +35,37 @@ From lush forests to towering peaks, find endless adventures at Winter Park Reso
 <h2>Astronomy Tour ></h2></div>
 </div>
 </div>`;
-var productsContent = `<h1>products</h1>`;
+
+var lessonsContent = `<div class="lessons-container">
+<div class="lessons-wrapper">
+<div class="lessons-content">
+<h2>PRIVATE SKI & SNOWBOARD LESSONS</h2>
+<p>Receive guest-centered instruction for yourself and up to five friends or family members ages 3 and up. From beginners to experts, a personalized lesson awaits.</p>
+<div class="lesson-btn-wrapper">
+<button>LEARN MORE</button></div></div>
+<div class="lessons-img l1"></div>
+</div>
+
+<div class="lessons-wrapper">
+<div class="lessons-content">
+<h2>KIDS GROUP SKI LESSONS (AGE 4-14)</h2>
+<p>No matter your child’s skill level, a group lesson ensures a fun, and educational experience for an unbeatable value. Kids skiing group lessons offered to participants ages 4 - 14 years old.</p>
+<div class="lesson-btn-wrapper">
+<button>LEARN MORE</button></div></div>
+<div class="lessons-img l2"></div>
+</div>
+
+<div class="lessons-wrapper">
+<div class="lessons-content">
+<h2>KIDS GROUP SNOWBOARD LESSONS (AGE 4-14)</h2>
+<p>No matter your child’s skill level, a group lesson ensures a fun, and educational experience for an unbeatable value. Kids snowboarding group lessons offered to participants ages 4 - 14 years old.</p>
+<div class="lesson-btn-wrapper">
+<button>LEARN MORE</button></div></div>
+<div class="lessons-img l3"></div>
+</div>
+
+</div>`;
+
 var contactContent = `<div class="contact-page-wrapper">
 <div class="contact-container">
   <div class="contact-info-left">
