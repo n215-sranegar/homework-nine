@@ -22,7 +22,91 @@ p {
 #app {
   padding: 50px 0px;
   width: 100%;
-  margin-bottom: 100px;
+  min-height: calc(100vh - 90px);
+}
+
+.contact-page-wrapper {
+  width: 100%;
+  position: relative;
+}
+.contact-page-wrapper .contact-container {
+  max-width: 950px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-page-wrapper .contact-container .contact-info-left {
+  width: 300px;
+  padding: 100px 60px 140px 20px;
+}
+.contact-page-wrapper .contact-container .contact-info-left .contact-info {
+  width: 99%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.contact-page-wrapper .contact-container .contact-info-left .contact-info h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.contact-page-wrapper .contact-container .contact-info-left .contact-info p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: -10px;
+}
+.contact-page-wrapper .contact-container .contact-form {
+  padding: 5px 20px 5px 5px;
+  width: 100%;
+  margin-top: 40px;
+}
+.contact-page-wrapper .contact-container .contact-form .contact-info {
+  display: none;
+}
+.contact-page-wrapper .contact-container .contact-form h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 42px;
+  padding: 15px 10px;
+}
+.contact-page-wrapper .contact-container .contact-form input {
+  width: 100%;
+  height: 56px;
+  background-color: #d4d4d4;
+  border: none;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 10px;
+  border-radius: 0%;
+}
+.contact-page-wrapper .contact-container .contact-form textarea {
+  width: 100%;
+  background-color: #d4d4d4;
+  border: none;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 10px;
+  border-radius: 0%;
+}
+.contact-page-wrapper .contact-container .contact-form button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  width: 200px;
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  transition: 0.2s ease-in, 0.2s ease-out;
+  float: right;
+}
+.contact-page-wrapper .contact-container .contact-form button:hover {
+  cursor: pointer;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  transition: 0.2s ease-in, 0.2s ease-out;
+  background-color: #7b7a91;
+  border: 2px solid black;
+  color: #fff;
 }
 
 nav {
@@ -167,6 +251,89 @@ footer {
 footer p {
   width: 300px;
   margin: 0 auto;
+}
+
+.about-container {
+  width: 100%;
+  padding: 10px 100px;
+  margin-bottom: 100px;
+}
+.about-container .activities-wrapper {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-container .activities-wrapper .activity {
+  width: 370px;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  transition: 0.2s ease-in, 0.2s ease-out;
+  border: 1px solid white;
+  background-image: url(../images/skiing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+}
+.about-container .activities-wrapper .activity:hover {
+  cursor: pointer;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  transition: 0.2s ease-in, 0.2s ease-out;
+  border: 1px solid black;
+}
+.about-container .activities-wrapper .activity h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  color: gray;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 300px;
+}
+.about-container .activities-wrapper .a2 {
+  background-image: url(../images/tubing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+}
+.about-container .activities-wrapper .a3 {
+  background-image: url(../images/astronomy.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+}
+.about-container h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  line-height: 65px;
+  text-transform: uppercase;
+}
+.about-container p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  width: 90%;
+}
+.about-container h2 {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+  line-height: 45px;
+  text-transform: uppercase;
+  padding: 100px 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

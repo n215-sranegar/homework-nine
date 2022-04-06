@@ -1,0 +1,74 @@
+.about-container {
+    width: 100%;
+    padding: 10px 100px;
+    margin-bottom: 100px;
+    .activities-wrapper {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        .activity {
+            width: 370px;
+            height: 200px;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+            transition: 0.2s ease-in, 0.2s ease-out;
+            border: 1px solid white;
+            @include activity-img();
+
+            &:hover {
+                cursor: pointer;
+                box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+                transition: 0.2s ease-in, 0.2s ease-out;
+                border: 1px solid black;
+            }
+
+            h2 {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-transform: uppercase;
+                color: gray;
+                font-size: 20px;
+                text-align: center;
+                padding-top: 300px;
+            }
+        }
+
+        .a2 {
+            @include activity-img(url(../images/tubing.jpg));
+        }
+
+        .a3 {
+            @include activity-img(url(../images/astronomy.jpg));
+        }
+    }
+
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        line-height: 65px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+        width: 90%;
+    }
+
+    h2 {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 36px;
+        color: rgb(0, 0, 0);
+        line-height: 45px;
+        text-transform: uppercase;
+        padding: 100px 20px;
+    }
+}

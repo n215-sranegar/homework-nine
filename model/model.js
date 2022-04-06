@@ -22,9 +22,51 @@ var homeContent = `
 <div class="lodging">
 <h2>On-site Lodging</h2>
 <div class="button-wrapper"><button>Book Now!</button></div></div>`;
-var aboutContent = `<h1>about</h1>`;
+var aboutContent = `<div class="about-container"><h1>Activites</h1>
+<p>Explore the Rockies and tap into the best of Colorado unfiltered right here in Winter Park. 
+From lush forests to towering peaks, find endless adventures at Winter Park Resort!</p>
+<h2>ADVANCED PURCHASE IS HIGHLY RECOMMENDED AND SOMETIMES REQUIRED</h2>
+<div class="activities-wrapper">
+<div class="activity a1">
+<h2>Ski / Snowboarding ></h2></div>
+<div class="activity a2">
+<h2>Tubing Hill ></h2></div>
+<div class="activity a3">
+<h2>Astronomy Tour ></h2></div>
+</div>
+</div>`;
 var productsContent = `<h1>products</h1>`;
-var contactContent = `<h1>contact</h1>`;
+var contactContent = `<div class="contact-page-wrapper">
+<div class="contact-container">
+  <div class="contact-info-left">
+    <div class="contact-info questions">
+      <h4>Contact</h4>
+      <p>Have questions about our products or your order? Send us a message! We'll get back to you within 48 hours.</p>
+    </div>
+
+  <div class="contact-info">
+    <h4>Phone Number</h4>
+    <p>555-555-4305</p>
+  </div>
+  <div class="contact-info">
+    <h4>Visit Us</h4>
+    <p>85 Parsenn Road<br>
+      Winter Park, CO 80583
+      </p>
+  </div>
+</div>
+  <div class="contact-form">
+    <h1>Contact</h1>
+    <div class="contact-info questions">
+      <p>Have questions about our products or your order? Send us a message! We'll get back to you within 48 hours.</p>
+    </div>
+    <input type="text" placeholder="name">
+    <input type="text" placeholder="email">
+    <textarea name="" id="" cols="30" rows="10" placeholder="message..."></textarea>
+    <button>SEND</button>
+  </div>
+</div> 
+</div>`;
 
 
 //this function is being called from the app.js and it has the page name

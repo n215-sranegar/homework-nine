@@ -1,0 +1,10 @@
+//Activity images
+@mixin activity-img($productImg: url(../images/skiing.jpg)) {
+    background-image: $productImg;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+  }
